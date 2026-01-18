@@ -20,6 +20,7 @@
   object-fit: cover; 
 }
 
+
 .hotspot {
   position: absolute;
   transform: translate(-50%, -50%);

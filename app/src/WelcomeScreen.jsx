@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import welcomeImg from './assets/EasyTalk_Jeep_Intro.png'; 
 import './WelcomeScreen.css';
+import welcomeBg from './assets/Welcome_Screen.jpg';
 
 function WelcomeScreen({ onStart }) {
   const [showInfo, setShowInfo] = useState(false);
