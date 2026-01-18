@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import welcomeImg from './assets/EasyTalk_Jeep_Intro.png'; 
 import './WelcomeScreen.css';
+import welcomeBg from './assets/Welcome_Screen.jpg';
 
 function WelcomeScreen({ onStart }) {
   const [showInfo, setShowInfo] = useState(false);
@@ -7,7 +9,7 @@ function WelcomeScreen({ onStart }) {
   return (
     <div className="screen-container">
       <div className="welcome-content-wrapper">
-          <img src="EasyTalk_Jeep_Intro.png" alt="Welcome" className="bg-image" />
+          <img src={welcomeImg} alt="Welcome" className="bg-image" />
           {!showInfo ? (
             
             <div className="welcome-overlay">
